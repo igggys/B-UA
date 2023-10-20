@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Igor\\source\\repos\\BreweryApplication\\BreweryApplication\\wwwroot\\css\\Home\\index.css",
+      "PackagePath": "staticwebassets\\css\\Home\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Igor\\source\\repos\\BreweryApplication\\BreweryApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Igor\\source\\repos\\BreweryApplication\\BreweryApplication\\wwwroot\\images\\beer.png",
+      "PackagePath": "staticwebassets\\images\\beer.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor\\source\\repos\\BreweryApplication\\BreweryApplication\\wwwroot\\js\\Home\\index.js",
+      "PackagePath": "staticwebassets\\js\\Home\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor\\source\\repos\\BreweryApplication\\BreweryApplication\\wwwroot\\video\\production_id_4426550.mp4",
+      "PackagePath": "staticwebassets\\video\\production_id_4426550.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BreweryApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BreweryApplication.props",
+      "PackagePath": "build\\BreweryApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BreweryApplication.props",
+      "PackagePath": "buildMultiTargeting\\BreweryApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BreweryApplication.props",
+      "PackagePath": "buildTransitive\\BreweryApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

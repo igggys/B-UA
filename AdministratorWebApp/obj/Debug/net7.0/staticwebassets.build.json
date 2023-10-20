@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LKwrSMRJtN+M6P09RxUkSGO2mSyUEPiZet+2BTFPO+o=",
+  "Source": "AdministratorWebApp",
+  "BasePath": "_content/AdministratorWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
