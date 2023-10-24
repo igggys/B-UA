@@ -4,6 +4,7 @@ using Microsoft.Extensions.Options;
 using WebAppTest.DataLayer;
 using WebAppTest.Filters;
 using WebAppTest.Infrastructure;
+using WebAppTest.Services;
 
 namespace WebAppTest.Controllers
 {
@@ -13,11 +14,13 @@ namespace WebAppTest.Controllers
     {
         private readonly SessionsManager _sessionsManager;
         private readonly List<ServiceProperties> _servicesProperties;
+        private readonly Connector _connector;
 
-        public HomeController(SessionsManager sessionsManager, IOptions<List<ServiceProperties>> servicesProperties)
+        public HomeController(SessionsManager sessionsManager, IOptions<List<ServiceProperties>> servicesProperties, Connector connector)
         {
             _sessionsManager = sessionsManager;
             _servicesProperties = servicesProperties.Value;
+            _connector = connector;
         }
 
         [HttpGet]
@@ -25,6 +28,7 @@ namespace WebAppTest.Controllers
         [TypeFilter(typeof(SessionsStartAttribute))]
         public async Task<IActionResult> GeoCodingServicesList()
         {
+            await _connector.Get(Guid.NewGuid(), _servicesProperties.FirstOrDefault(item => item.ServiceName == "GeoCoding").ServiceName, "https://localhost:44304/api/GeoCoding/ServicesList");
             return Ok();
         }
     }

@@ -2,22 +2,34 @@
 using System.Text;
 using System;
 using WebAppTest.Infrastructure;
+using Microsoft.Extensions.Caching.Memory;
+using CryptoLib;
+using System.Reflection.PortableExecutable;
 
 namespace WebAppTest.Services
 {
     public class Connector
     {
-        public Connector() 
+        private readonly IMemoryCache _memoryCache;
+        public Connector(IMemoryCache memoryCache) 
         {
-            //
+            _memoryCache = memoryCache;
         }
 
-        public async Task<ApplicationResponse> Get(string serviceName, string path, Dictionary<string, string> headers)
+        public async Task<ApplicationResponse> Get(Guid requestId, string serviceName, string path)
         {
+            object? memorySession;
+            if (!_memoryCache.TryGetValue(serviceName, out memorySession))
+            {
+                throw new InvalidOperationException("Session data not found.");
+            }
+            MemorySession session = ((MemorySession)(memorySession));
             ApplicationResponse result = null;
 
             using (var client = new HttpClient())
             {
+                client.DefaultRequestHeaders.Add("sessionId", session.SessionId.ToString());
+                client.DefaultRequestHeaders.Add("serviceId", session.ServiceId.ToString());
                 try
                 {
                     var response = await client.GetAsync(path);

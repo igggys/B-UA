@@ -11,7 +11,7 @@ namespace WebAppGeoCodingServices.Filters
         public async void OnAuthorization(AuthorizationFilterContext context)
         {
             StringValues sessionId;
-            if (!context.HttpContext.Request.Headers.TryGetValue("SessionId", out sessionId))
+            if (!context.HttpContext.Request.Headers.TryGetValue("sessionId", out sessionId))
             {
                 context.Result = new JsonResult(new { message = "Unauthorized" }) { StatusCode = StatusCodes.Status401Unauthorized };
             }

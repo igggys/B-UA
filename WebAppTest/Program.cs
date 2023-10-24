@@ -2,6 +2,7 @@ using WebAppTest.DataLayer;
 using WebAppTest.Filters;
 using WebAppTest.Infrastructure;
 using Microsoft.Extensions.Caching.Memory;
+using WebAppTest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Services.Configure<List<DbConnection>>(builder.Configuration.GetSection(
 
 builder.Services.AddSingleton<LogWriter>();
 builder.Services.AddSingleton<SessionsManager>();
+builder.Services.AddSingleton<Connector>();
 
 builder.Services.AddControllers();
 

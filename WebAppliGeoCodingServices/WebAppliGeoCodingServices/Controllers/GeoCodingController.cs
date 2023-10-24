@@ -18,16 +18,21 @@ namespace WebAppGeoCodingServices.Controllers
         private readonly IOptions<List<GeoCodingServiceSettings>> _servicesSettings;
         private readonly IEnumerable<IServiceGeoCoding> _servicesGeoCoding;
         private readonly IHttpClientFactory _httpClientFactory;
-        public GeoCodingController(IOptions<List<GeoCodingServiceSettings>> servicesSettings, IEnumerable<IServiceGeoCoding> servicesGeoCoding, IHttpClientFactory httpClientFactory) 
+        private readonly MemorySession _memorySession;
+        public GeoCodingController(IOptions<List<GeoCodingServiceSettings>> servicesSettings, IEnumerable<IServiceGeoCoding> servicesGeoCoding, IHttpClientFactory httpClientFactory, MemorySession memorySession) 
         {
             _servicesSettings = servicesSettings;
             _servicesGeoCoding = servicesGeoCoding;
             _httpClientFactory = httpClientFactory;
+            _memorySession = memorySession;
         }
 
         [HttpGet]
         [Route("ServicesList")]
-        public IActionResult ServicesList([FromHeader(Name = "SessionId")] string sessionId) => Ok(new ApplicationResponse { IsError = false, Message = string.Empty, Data = _servicesSettings.Value.Select(item => item.ServiceName).ToList() });
+        public IActionResult ServicesList([FromHeader(Name = "SessionId")] string sessionId)
+        {
+            return Ok(new ApplicationResponse { IsError = false, Message = string.Empty, Data = _servicesSettings.Value.Select(item => item.ServiceName).ToList() });
+        }
 
         [HttpGet]
         [Route("GeoCoding")]
