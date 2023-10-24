@@ -7,6 +7,7 @@ using System.Reflection;
 using WebAppGeoCodingServices.Filters;
 using WebAppGeoCodingServices.Infrastructure;
 using WebAppGeoCodingServices.Services.GeoCoding;
+using Newtonsoft.Json;
 
 namespace WebAppGeoCodingServices.Controllers
 {
@@ -31,7 +32,9 @@ namespace WebAppGeoCodingServices.Controllers
         [Route("ServicesList")]
         public IActionResult ServicesList([FromHeader(Name = "SessionId")] string sessionId)
         {
-            return Ok(new ApplicationResponse { IsError = false, Message = string.Empty, Data = _servicesSettings.Value.Select(item => item.ServiceName).ToList() });
+            var result = _servicesSettings.Value.Select(item => item.ServiceName).ToList();
+
+            return Ok(new ApplicationResponse { IsError = false, Message = string.Empty, Data = result });
         }
 
         [HttpGet]
