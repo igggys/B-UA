@@ -1,0 +1,12 @@
+C:\Users\Igor\source\repos\BreweryApplication\WLog\bin\Debug\net7.0\WLog.deps.json
+C:\Users\Igor\source\repos\BreweryApplication\WLog\bin\Debug\net7.0\WLog.dll
+C:\Users\Igor\source\repos\BreweryApplication\WLog\bin\Debug\net7.0\WLog.pdb
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.csproj.AssemblyReference.cache
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.AssemblyInfo.cs
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.dll
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\refint\WLog.dll
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\WLog.pdb
+C:\Users\Igor\source\repos\BreweryApplication\WLog\obj\Debug\net7.0\ref\WLog.dll

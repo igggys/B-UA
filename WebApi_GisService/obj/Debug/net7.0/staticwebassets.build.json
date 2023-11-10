@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xJCN0oeJwKFiNrzrC9tOT/LW9MOGVZkyC+6lPBcM4X0=",
+  "Source": "WebApi_GisService",
+  "BasePath": "_content/WebApi_GisService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

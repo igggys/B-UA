@@ -13,10 +13,18 @@ namespace WebAppGeoCodingServices.Filters
         }
         public async void OnException(ExceptionContext context)
         {
-            LogRecord logRecord = ((LogRecord)(context.HttpContext.Items["LogRecord"]));
-            logRecord.Exeption = context.Exception.ToString();
-            logRecord.EndAction = DateTime.UtcNow;
-            await _logWriter.LogWriteAsync(logRecord);
+            try
+            {
+                LogRecord logRecord = ((LogRecord)(context.HttpContext.Items["LogRecord"]));
+                logRecord.Exeption = context.Exception.ToString();
+                logRecord.EndAction = DateTime.UtcNow;
+                await _logWriter.LogWriteAsync(logRecord);
+            }
+            catch
+            {
+                //
+            }
+            
         }
     }
 }
