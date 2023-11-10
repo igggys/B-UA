@@ -28,8 +28,6 @@ namespace WLog.Filters
                 ((LogRecord)(context.HttpContext.Items["LogRecord"])).End = DateTime.UtcNow;
                 await _dataManager.WriteAsync(((LogRecord)(context.HttpContext.Items["LogRecord"])));
             }
-
-            //return Task.CompletedTask;
         }
     }
 }

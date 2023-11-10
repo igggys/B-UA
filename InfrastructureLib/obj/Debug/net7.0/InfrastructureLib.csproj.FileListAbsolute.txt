@@ -1,0 +1,15 @@
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\bin\Debug\net7.0\InfrastructureLib.deps.json
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\bin\Debug\net7.0\InfrastructureLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\bin\Debug\net7.0\InfrastructureLib.pdb
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\bin\Debug\net7.0\CryptoLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\bin\Debug\net7.0\CryptoLib.pdb
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.csproj.AssemblyReference.cache
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.AssemblyInfo.cs
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.csproj.CopyComplete
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\refint\InfrastructureLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\InfrastructureLib.pdb
+C:\Users\Igor\source\repos\BreweryApplication\InfrastructureLib\obj\Debug\net7.0\ref\InfrastructureLib.dll

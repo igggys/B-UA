@@ -31,3 +31,8 @@ C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\obj\Debug\net7.0
 C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\obj\Debug\net7.0\WebApi_GisService.pdb
 C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\obj\Debug\net7.0\WebApi_GisService.genruntimeconfig.cache
 C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\obj\Debug\net7.0\ref\WebApi_GisService.dll
+C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\bin\Debug\net7.0\CryptoLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\bin\Debug\net7.0\InfrastructureLib.dll
+C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\bin\Debug\net7.0\CryptoLib.pdb
+C:\Users\Igor\source\repos\BreweryApplication\WebApi_GisService\bin\Debug\net7.0\InfrastructureLib.pdb

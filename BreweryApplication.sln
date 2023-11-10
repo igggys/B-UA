@@ -15,12 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppGeoCodingServices", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppTest", "WebAppTest\WebAppTest.csproj", "{3047ABBE-2F9D-4434-A7FD-F5CBDD5E495A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{2554850E-59CD-46D3-A356-317CA7B008A6}"
-	ProjectSection(SolutionItems) = preProject
-		BreweryApp_IdentityService_Db.sql = BreweryApp_IdentityService_Db.sql
-		BreweryApp_LogDB.sql = BreweryApp_LogDB.sql
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLib", "InfrastructureLib\InfrastructureLib.csproj", "{23F72C73-36D3-405C-B2D8-6AC4DBA692E6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_GisService", "WebApi_GisService\WebApi_GisService.csproj", "{BC9111E1-B269-48C5-B968-E21B500205F2}"
